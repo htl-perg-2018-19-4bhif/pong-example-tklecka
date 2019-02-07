@@ -18,7 +18,6 @@
   "homepage": "https://github.com/htl-perg-2018-19-4bhif/pong-example-tklecka#readme",
   "dependencies": {
     "hammerjs": "^2.0.8",
-    "nes.css": "^1.0.0",
     "socket.io": "^2.2.0"
   },
   "devDependencies": {
