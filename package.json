@@ -1,0 +1,24 @@
+{
+  "name": "pong-example-tklecka",
+  "version": "1.0.0",
+  "description": "![Pong](Pong.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htl-perg-2018-19-4bhif/pong-example-tklecka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htl-perg-2018-19-4bhif/pong-example-tklecka/issues"
+  },
+  "homepage": "https://github.com/htl-perg-2018-19-4bhif/pong-example-tklecka#readme",
+  "dependencies": {
+    "hammerjs": "^2.0.8",
+    "nes.css": "^1.0.0",
+    "socket.io": "^2.2.0"
+  }
+}
