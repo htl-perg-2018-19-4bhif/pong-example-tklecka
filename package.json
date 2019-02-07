@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/htl-perg-2018-19-4bhif/pong-example-tklecka#readme",
   "dependencies": {
+    "express": "^4.16.4",
     "hammerjs": "^2.0.8",
     "socket.io": "^2.2.0"
   },
