@@ -11,9 +11,15 @@ const server = http.createServer(app);
 const port = 8080;
 server.listen(port, () => console.log(`Server is listening on port ${port}...`));
 
+let connectCounter=0;
 // Handle the connection of new websocket clients
 sio(server).on('connection', (socket) => {
-  
+  connectCounter++;
+  if(connectCounter>2){
+    socket.disconnect();
+    connectCounter--;
+    console.log("C. kicked");
+  }
   // Handle an ArrowKey event
   socket.on('ArrowKey', function(code) {
     console.log(`${code} pressed`);

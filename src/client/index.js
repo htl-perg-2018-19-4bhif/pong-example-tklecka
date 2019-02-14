@@ -21,6 +21,7 @@ window.addEventListener('load', () => __awaiter(this, void 0, void 0, function* 
     // an arrow key in a different browser window).
     socket.on('ArrowKey', code => {
         // Add code of the pressed key to HTML list
+        //TODO: move thing
         console.log(code);
     });
 }));
